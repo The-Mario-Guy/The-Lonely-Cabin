@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
+  m_Name: You decided to investigate
+  m_EditorClassIdentifier: 
+  storyText: ">You decide to investigate the cabin. \r\n\r\nAs you walk closer to
+    it you feel a sense of dread wash over you. Something feels off about the cabin.
+    When you get there you take notice of the old and water damaged logs. As if the
+    whole thing will fall apart in any moment. What will you do?\r\n\r\n1 - Go to
+    the front\r\n\r\n2 - Go around the back\r\n\r\n3 - Chicken out\r"
+  nextStates:
+  - {fileID: 11400000, guid: e2036fb8c7bba364da1b5afeb9b0cfb8, type: 2}
+  - {fileID: 11400000, guid: e6010c3de1d018f43ba789102a840142, type: 2}
+  - {fileID: 11400000, guid: eec24e7d418822a4a90da20170317838, type: 2}
