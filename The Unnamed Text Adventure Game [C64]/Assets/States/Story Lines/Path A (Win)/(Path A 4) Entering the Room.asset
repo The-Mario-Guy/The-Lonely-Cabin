@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
+  m_Name: (Path A 4) Entering the Room
+  m_EditorClassIdentifier: 
+  storyText: "Just as you\u2019re about to go look for the key you notice something
+    shiny on the floor\u2026\r\nIt\u2019s the key!\r\n\r\n>You use the key on the
+    door\r\n\r\nOpening the door reveals what appears to be a kids bedroom. A teenager\u2019s
+    one to be in fact. You discover that the bright light is coming from\u2026..\r\n\r\n\r\n\r\n\r\n\r\nPress
+    1 to continue\u2026.\r"
+  nextStates:
+  - {fileID: 11400000, guid: 30972c508d303734aa9e39b87300a748, type: 2}
