@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
+  m_Name: (Path A 2 cont.) Living room
+  m_EditorClassIdentifier: 
+  storyText: "> You decide to check out the back\r\n\r\nIn the living room you take
+    note of the damaged chair and broken head lamp. They seem to have been used recently.
+    However, you just assume that some animal climbed on top of it. Being in the
+    center you take note of the upstairs as well as the bedroom underneath said stairs.
+    What do you do?\r\n\r\n1 - Enter the bedroom\r\n\r\n2- Go upstairs\r\n\r\n\r\n\r\n\r"
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: cb9e35f0589e9e64ea6f72167ebb2da0, type: 2}

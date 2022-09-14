@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
+  m_Name: (Path A 2) Go around the back
+  m_EditorClassIdentifier: 
+  storyText: "> You decide to check out the back\r\n\r\nThere you notice that the
+    back door is wide open, as if it\u2019s inviting you in.\r\nYou enter the door
+    and appear to be in the kitchen. The fridge is covered in mold and the light
+    bulb seems to have blown it\u2019s fuse. \r\nThere is a doorway into the living
+    room.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\rPress 1 to continue\u2026\r"
+  nextStates:
+  - {fileID: 11400000, guid: 94c224c43b7964c42b975132b780748a, type: 2}

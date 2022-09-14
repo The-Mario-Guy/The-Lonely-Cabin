@@ -10,7 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: Go around the back
+  m_Name: (Inv) Go to front
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You walk to the front of the Cabin. There is a door with a missing
+    knob. Next to it is a window. What do you do?\r\n\r\n\r\n1 - Open the door\r\n\r\n2
+    - Inspect the window\r\n\r\n3 - Walk back to the Cabin\r"
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
