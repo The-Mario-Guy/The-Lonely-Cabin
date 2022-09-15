@@ -10,12 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: (Inv) Go to front
+  m_Name: Outside Window
   m_EditorClassIdentifier: 
-  storyText: "You walk to the front of the Cabin. There is a door with a missing
-    knob. Next to it is a window. What do you do?\r\n\r\n\r\n1 - Open the door\r\n\r\n2
-    - Inspect the window\r\n\r\n3 - Walk back to the Cabin\r"
+  storyText: '> You decide to inspect the window
+
+    
+
+    Yout notice a window.
+    Looking inside is pointless as the window is covered in dust. You can barely
+    make out a chair and lamp as well as a dark figure.
+
+
+    Press 1 to go back...'
   nextStates:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: e2036fb8c7bba364da1b5afeb9b0cfb8, type: 2}

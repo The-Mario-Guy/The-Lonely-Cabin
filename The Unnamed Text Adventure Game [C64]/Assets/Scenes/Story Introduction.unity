@@ -287,8 +287,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Welcome to the unnamed game, user. \nThis is just a simple place holder.
-    The intro will be added! Trust me!\n\n\n"
+  m_text: 'Welcome, user, to the Unnamed Text Adventure Game. In this game you play
+    as a teenager exploring a forest when you suddenly discover an abandoned cabin.
+    Maybe they''re alone. Maybe they''re not. It''s up to you on whether you make
+    it or not.
+
+
+
+
+
+
+
+    Made by Guillermo
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: faf409a8d827f6947b50dfc450a3c422, type: 2}
   m_sharedMaterial: {fileID: 7875164865360988883, guid: faf409a8d827f6947b50dfc450a3c422, type: 2}
@@ -620,7 +632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Oki dokie!
+  m_text: Let's go for a walk
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8063cec35fb7074188d5e542ab454ef, type: 2}
   m_sharedMaterial: {fileID: -7744059621561413311, guid: a8063cec35fb7074188d5e542ab454ef, type: 2}
@@ -647,8 +659,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -937,6 +949,7 @@ GameObject:
   - component: {fileID: 1447094580}
   - component: {fileID: 1447094579}
   - component: {fileID: 1447094578}
+  - component: {fileID: 1447094581}
   m_Layer: 5
   m_Name: START
   m_TagString: Untagged
@@ -962,7 +975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -121, y: -248}
+  m_AnchoredPosition: {x: 3.4, y: -75}
   m_SizeDelta: {x: 275.7, y: 51.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1447094578
@@ -1059,6 +1072,102 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447094576}
   m_CullTransparentMesh: 1
+--- !u!82 &1447094581
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447094576}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 242ce92f21d10994db29f68df0655ffa, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1611221985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,8 +1399,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 109.81, y: -143.7}
-  m_SizeDelta: {x: 287.39, y: 287.39}
+  m_AnchoredPosition: {x: 184.63, y: -166.44}
+  m_SizeDelta: {x: 86.77, y: 83.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2080107550
 MonoBehaviour:

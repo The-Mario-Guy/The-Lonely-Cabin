@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: (Path A 5) Play the game
+  m_Name: (Path A) Door Front
   m_EditorClassIdentifier: 
-  storyText: "> You decide to play the game\n\nYou blow into the game cart and insert
-    it into the ancient computer. You type in the \u201Cload\u201D command and press
-    enter. The game loads up. A prompt shows up. It reads:\n\n\nPress 1 to continue..."
+  storyText: "> You attempt to open the door\r\n\nThe door does not budge. It seems
+    like there is something or someone holding it shut. Although the door seems fragile
+    enough to break, you decide not to. \r\n\n\nPress 1 to go back..."
   nextStates:
-  - {fileID: 11400000, guid: f50345c3511dfa447bc58fa178cba0b1, type: 2}
+  - {fileID: 11400000, guid: e2036fb8c7bba364da1b5afeb9b0cfb8, type: 2}
