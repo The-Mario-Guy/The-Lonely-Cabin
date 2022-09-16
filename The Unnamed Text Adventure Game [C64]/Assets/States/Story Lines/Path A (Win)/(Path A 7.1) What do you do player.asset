@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: You chicken out
+  m_Name: (Path A 7.1) What do you do player
   m_EditorClassIdentifier: 
-  storyText: "You decide that adventuring isn\u2019t cut out for you. You walk back
-    to the familiar and never go back. The thoughts of what could\u2019ve been there
-    will always haunt you. \r\n\r\nYou\u2019re a coward.\r\n\n\nPress 1 to try again...\n"
+  storyText: "The whole house is shook as you hear something crumble from the first
+    floor. Whoever was in here seems to have fallen  through the floor. Now\u2019s
+    your chance to escape! What do you do?\r\n\r\n\r\n1 - Make a run for it\r\n\r\n2
+    - Make sure they don\u2019t come back\r"
   nextStates:
-  - {fileID: 11400000, guid: 52aba022d1c91634c9311f62a10a85c3, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}

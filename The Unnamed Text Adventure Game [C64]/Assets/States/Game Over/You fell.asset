@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
+  m_Name: You fell
+  m_EditorClassIdentifier: 
+  storyText: "> You decide to enter the bedroom\r\n\r\nOpening the door causes a
+    wave of dust to hit your eyes. Being blinded you reach your arms out for anything
+    to wipe the dust off. However since you were blinded you did not take not of
+    the floor\u2019s condition. Once in the center the floor collapses on itself,
+    plunging you to a deep hole. You don\u2019t survive, and no one ever finds your
+    body.\r\n\n\nPress 1 to try again..."
+  nextStates:
+  - {fileID: 11400000, guid: 52aba022d1c91634c9311f62a10a85c3, type: 2}

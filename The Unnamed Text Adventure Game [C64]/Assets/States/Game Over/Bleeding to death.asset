@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: You chicken out
+  m_Name: Bleeding to death
   m_EditorClassIdentifier: 
-  storyText: "You decide that adventuring isn\u2019t cut out for you. You walk back
-    to the familiar and never go back. The thoughts of what could\u2019ve been there
-    will always haunt you. \r\n\r\nYou\u2019re a coward.\r\n\n\nPress 1 to try again...\n"
+  storyText: "> You attempt to jump out the window\r\n\r\nYou walk to the door and
+    run at full speed towards the window. It shatters, cutting your face and covering
+    you in blood. You fall and hit the ground. You break your spine and you bleed
+    to death.\r\n\rThe last thing you see is a blurry dark figure walking towards
+    you. You are never seen again.\n\r\nPress 1 to try again\u2026\r"
   nextStates:
   - {fileID: 11400000, guid: 52aba022d1c91634c9311f62a10a85c3, type: 2}

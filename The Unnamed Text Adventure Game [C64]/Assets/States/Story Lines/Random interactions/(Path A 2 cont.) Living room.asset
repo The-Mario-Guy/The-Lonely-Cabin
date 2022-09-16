@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
   m_Name: (Path A 2 cont.) Living room
   m_EditorClassIdentifier: 
-  storyText: "> You decide to check out the back\r\n\r\nIn the living room you take
-    note of the damaged chair and broken head lamp. They seem to have been used recently.
-    However, you just assume that some animal climbed on top of it. Being in the
-    center you take note of the upstairs as well as the bedroom underneath said stairs.
-    What do you do?\r\n\r\n1 - Enter the bedroom\r\n\r\n2- Go upstairs\r\n\r\n\r\n\r\n\r"
+  storyText: "In the living room you take note of the damaged chair and broken head
+    lamp. They seem to have been used recently. However, you just assume that some
+    animal climbed on top of it. Being in the center you take note of the upstairs
+    as well as the bedroom underneath said stairs. What do you do?\r\n\r\n1 - Enter
+    the bedroom\r\n\r\n2- Go upstairs\r\n\r\n\r\n\r\n\r"
   nextStates:
   - {fileID: 11400000, guid: 1938e7387d5322b47bde0834de028d6f, type: 2}
   - {fileID: 11400000, guid: cb9e35f0589e9e64ea6f72167ebb2da0, type: 2}

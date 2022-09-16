@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: You chicken out
+  m_Name: Try to open the bedroom door
   m_EditorClassIdentifier: 
-  storyText: "You decide that adventuring isn\u2019t cut out for you. You walk back
-    to the familiar and never go back. The thoughts of what could\u2019ve been there
-    will always haunt you. \r\n\r\nYou\u2019re a coward.\r\n\n\nPress 1 to try again...\n"
+  storyText: "> You attempt to open the door\r\n\r\nYou try and try with all your
+    might to open the wooden door but to no avail the door does not open. You are
+    trapped in this room. There is nothing for you to do. \r\n\r\nPress 1 to go back\u2026\r"
   nextStates:
-  - {fileID: 11400000, guid: 52aba022d1c91634c9311f62a10a85c3, type: 2}
+  - {fileID: 11400000, guid: 6c5606a2c1e30114bb1addfb08690a76, type: 2}

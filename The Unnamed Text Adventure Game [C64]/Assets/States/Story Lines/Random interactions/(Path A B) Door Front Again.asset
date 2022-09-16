@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: (Path A) Door Front
+  m_Name: (Path A B) Door Front Again
   m_EditorClassIdentifier: 
-  storyText: "> You attempt to open the door\r\n\nThe door does not budge. It seems
-    like there is something or someone holding it shut. Although the door seems fragile
-    enough to break, you decide not to. \r\n\n\nPress 1 to go back...\n\nPress 2
-    to try again..."
+  storyText: ">  You attempt to open the door\r \nagain\n\nThe door does not budge.
+    It seems like there is something or someone holding it shut. Although the door
+    seems fragile enough to break, you decide not to. \r\n\n\nPress 1 to go back...\n\nPress
+    2 to try again..."
   nextStates:
   - {fileID: 11400000, guid: e2036fb8c7bba364da1b5afeb9b0cfb8, type: 2}
-  - {fileID: 11400000, guid: 29508e77a3c893c449915a677d33bc46, type: 2}
+  - {fileID: 11400000, guid: 855fa88831e2e2c43a875b4e3de9a87e, type: 2}
