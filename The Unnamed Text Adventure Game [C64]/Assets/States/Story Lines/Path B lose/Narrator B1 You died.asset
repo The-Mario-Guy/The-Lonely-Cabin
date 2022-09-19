@@ -10,9 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: (Path A 7) You pressed 2
+  m_Name: Narrator B1 You died
   m_EditorClassIdentifier: 
-  storyText: "> You pressed 2\r\n\r\nYou hear a loud grunt as whoever is outside
-    goes downstairs. You hear a door click open and\u2026\r\n\r\n\r\nPress 1 to continue\u2026"
+  storyText: "Aaaaaaand you died.\r\nWhat did you expect? There\u2019s a fire here.
+    I don\u2019t even know WHY we even have that option. Actually you know what?
+    Since I\u2019m so nice why don\u2019t I give you a new option, player. Would
+    you like that?\r\n\r\n1 - Yes\r\n\r\n2 - No\r"
   nextStates:
-  - {fileID: 11400000, guid: 9cbcab1b888972b43ba0c29ffb211261, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}

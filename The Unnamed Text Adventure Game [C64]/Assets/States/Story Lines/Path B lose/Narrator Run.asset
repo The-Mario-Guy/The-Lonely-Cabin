@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
+  m_Name: Narrator Run
+  m_EditorClassIdentifier: 
+  storyText: "> You decided to run\r\n\r\nSeriously? I gave you a new option and
+    you decide not to use it? I can\u2019t believe you. Do you know how long that
+    took me to do? Took me seconds! Ok so it wasn\u2019t a lot of time but\u2026I
+    worked on it for you.\r\n\r\nYou know what? Forget it. I don\u2019t even know
+    what\u2019s going on in this story anymore. Game over I guess\u2026\r\n\r\n\r\nPress
+    1 to try again\u2026.\r\n\r\nPro tip: Maybe don\u2019t make me waste my time
+    next time"
+  nextStates:
+  - {fileID: 11400000, guid: 52aba022d1c91634c9311f62a10a85c3, type: 2}

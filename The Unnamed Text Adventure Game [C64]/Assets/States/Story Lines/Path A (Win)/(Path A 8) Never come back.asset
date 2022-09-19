@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
+  m_Name: (Path A 8) Never come back
+  m_EditorClassIdentifier: 
+  storyText: ">You go to check in on the killer\r\n\r\nYou kick open the door and
+    enter the bedroom. There you discover the floor boards have been damaged and
+    whoever came in here fell through. Looking inside the whole was near impossible
+    as it was too deep to see anything in there. You can hear the moans of something
+    big. What do you do?\r\n\r\n\r\n1 - Matches\r\n\r\n2 - Call out\r"
+  nextStates:
+  - {fileID: 11400000, guid: d5ddd4716f1ef8249b2be96e211ac454, type: 2}
+  - {fileID: 11400000, guid: 7ad7d3d74193dee44a38c8e3359d0068, type: 2}

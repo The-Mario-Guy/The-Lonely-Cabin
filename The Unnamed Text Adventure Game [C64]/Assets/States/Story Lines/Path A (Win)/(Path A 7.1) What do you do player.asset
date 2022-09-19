@@ -17,5 +17,5 @@ MonoBehaviour:
     your chance to escape! What do you do?\r\n\r\n\r\n1 - Make a run for it\r\n\r\n2
     - Make sure they don\u2019t come back\r"
   nextStates:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 0da46309bc112054f8c5b057ace4ee80, type: 2}
+  - {fileID: 11400000, guid: 109de4002b6a6f0428b3751e44fea724, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
+  m_Name: (Path A 9.1) Set ablaze
+  m_EditorClassIdentifier: 
+  storyText: "You can hear unworldly screams from the whole as it set ablaze. You
+    didn\u2019t notice that one of the matches fell onto the floor. The bedroom quickly
+    sets ablaze. What  now?\r\n\r\n1 - \u201CI\u2019m sleepy\u201D\r\n\r\n2 - R U
+    N (goes to this option)"
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 3dfe6a24b04ed954aac58794b53d828b, type: 2}

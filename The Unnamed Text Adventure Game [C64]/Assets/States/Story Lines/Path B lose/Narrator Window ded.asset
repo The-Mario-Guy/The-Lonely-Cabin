@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: (Path A 7) You pressed 2
+  m_Name: Narrator Window ded
   m_EditorClassIdentifier: 
-  storyText: "> You pressed 2\r\n\r\nYou hear a loud grunt as whoever is outside
-    goes downstairs. You hear a door click open and\u2026\r\n\r\n\r\nPress 1 to continue\u2026"
+  storyText: "Looks like you lost. \r\n\u2026\u2026\u2026\u2026\u2026..\r\nHey I
+    never said I\u2019d give you a good option.\r\n\r\nPress 1 to try again\u2026\r"
   nextStates:
-  - {fileID: 11400000, guid: 9cbcab1b888972b43ba0c29ffb211261, type: 2}
+  - {fileID: 11400000, guid: 52aba022d1c91634c9311f62a10a85c3, type: 2}

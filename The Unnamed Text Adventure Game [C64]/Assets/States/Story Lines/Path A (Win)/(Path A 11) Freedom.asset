@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: (Path A 7) You pressed 2
+  m_Name: (Path A 11) Freedom
   m_EditorClassIdentifier: 
-  storyText: "> You pressed 2\r\n\r\nYou hear a loud grunt as whoever is outside
-    goes downstairs. You hear a door click open and\u2026\r\n\r\n\r\nPress 1 to continue\u2026"
+  storyText: "> You attempt to move the fridge\r\n\r\nYou try with all your might
+    to lift the heavy fridge up. You struggle a bit before finally picking it up
+    and moving it to the side. You kick the door open and make it out alive.\r\n\r\nPress
+    1 to continue\u2026\r"
   nextStates:
-  - {fileID: 11400000, guid: 9cbcab1b888972b43ba0c29ffb211261, type: 2}
+  - {fileID: 11400000, guid: cca0ca04bfbb4d940b6d06bd96193912, type: 2}
