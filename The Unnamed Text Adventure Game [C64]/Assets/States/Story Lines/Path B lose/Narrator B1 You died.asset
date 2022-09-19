@@ -17,5 +17,5 @@ MonoBehaviour:
     Since I\u2019m so nice why don\u2019t I give you a new option, player. Would
     you like that?\r\n\r\n1 - Yes\r\n\r\n2 - No\r"
   nextStates:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 3735968ff25e07144b3e00a3a6a6c0ee, type: 2}
+  - {fileID: 11400000, guid: 86f10b3823bba0f418ffaa28d96417c8, type: 2}
