@@ -434,8 +434,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is some placeholder text. If you're seeing this then the guy making
-    this game is probably blind or something.
+  m_text: This is just some random text I'm writing. If you can see this stuff in
+    game then something went wrong and I'm probably going to lose points for that.
+    Sucks to be future me lol.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: faf409a8d827f6947b50dfc450a3c422, type: 2}
   m_sharedMaterial: {fileID: 7875164865360988883, guid: faf409a8d827f6947b50dfc450a3c422, type: 2}
@@ -944,7 +945,7 @@ MonoBehaviour:
   decalTex: {fileID: 0}
   decalTexPos: {x: 0, y: 0}
   decalTexScale: {x: 0, y: 0}
-  isLowResolution: 0
+  isLowResolution: 1
   resolutions: {x: 0, y: 0}
 --- !u!1 &1987741456
 GameObject:

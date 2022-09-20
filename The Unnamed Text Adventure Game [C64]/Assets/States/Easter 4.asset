@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
-  m_Name: Narrator B2 Yes
+  m_Name: Easter 4
   m_EditorClassIdentifier: 
-  storyText: "Oooooo goodie! Oki then, let me work on adding that new option for
-    you!\r\n\r\nPress 1 to go back\u2026\r"
+  storyText: "I...actually thought that was gonna be longer. Oh well. \n\n\n\nPress
+    1 to go back to the main game..."
   nextStates:
-  - {fileID: 11400000, guid: b591a8e1f3c25f84b887b1495e158cbd, type: 2}
+  - {fileID: 11400000, guid: 52aba022d1c91634c9311f62a10a85c3, type: 2}

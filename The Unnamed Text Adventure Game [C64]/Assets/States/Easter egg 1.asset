@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe248cf24d832943a4b945d893c49ac, type: 3}
+  m_Name: Easter egg 1
+  m_EditorClassIdentifier: 
+  storyText: 'Mario: "Nice of the princess to invite us over for a picnic, eh, Luigi?
+
+    
+
+    Luigi:
+    "I hope she made lots of spaghetti!
+
+    
+
+    Mario: "Luigi! Look! *picks
+    up note found on gate* It''s from Bowser. *begins reading note*
+
+    
+
+    Dear,
+    Pesky Plumbers
+
+    
+
+    The Koopalings and I have taken over the Mushroom
+    Kingdom. The princess is now a permanent guest at one of my 7 Koopa Hotels. I
+    dare you to find her if you can!
+
+    
+
+    Mario: "We got to find the princess!
+
+    
+
+    Luigi:
+    *points at player* "And YOU got to help us!
+
+    
+
+    Mario: *talking to player*
+    "If you need instructions on how to get through the Hotels, please check out
+    the Enclosed Instruction Book.
+
+    
+
+    Mario: Looks kind of peaceful.
+
+    
+
+    Luigi:
+    Looks are deceiving when Koopas are involved.
+
+    
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 4dbc927408f77044882ad5a7f163ba9e, type: 2}

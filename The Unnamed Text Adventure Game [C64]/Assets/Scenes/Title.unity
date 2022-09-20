@@ -159,7 +159,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 89
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -369,11 +369,11 @@ RectTransform:
   m_Children:
   - {fileID: 2096686206}
   - {fileID: 858139132}
+  - {fileID: 680885367}
   - {fileID: 322315819}
   - {fileID: 1624945042}
   - {fileID: 1601221884}
   - {fileID: 1454657184}
-  - {fileID: 680885367}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -413,7 +413,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 182091635}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -580,12 +580,12 @@ MonoBehaviour:
   isLetterBoxEdgeBlur: 0
   letterBoxType: 1
   isFilmDirt: 0
-  filmDirtTex: {fileID: 0}
+  filmDirtTex: {fileID: 2800000, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
   isDecalTex: 0
-  decalTex: {fileID: 0}
+  decalTex: {fileID: 2800000, guid: 13601d14eb9b4a0428eedbb6d2f89b78, type: 3}
   decalTexPos: {x: 0, y: 0}
   decalTexScale: {x: 0, y: 0}
-  isLowResolution: 0
+  isLowResolution: 1
   resolutions: {x: 0, y: 0}
 --- !u!1 &680885366
 GameObject:
@@ -618,12 +618,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 182091635}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.4, y: 53}
-  m_SizeDelta: {x: 214.03, y: 214.03}
+  m_AnchoredPosition: {x: -7.0882, y: 22.98}
+  m_SizeDelta: {x: 672.94, y: 638.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680885368
 MonoBehaviour:
@@ -975,7 +975,7 @@ RectTransform:
   m_Children:
   - {fileID: 1578700508}
   m_Father: {fileID: 182091635}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1244,7 +1244,7 @@ RectTransform:
   m_Children:
   - {fileID: 725927867}
   m_Father: {fileID: 182091635}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1376,7 +1376,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 182091635}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1436,7 +1436,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 2
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
