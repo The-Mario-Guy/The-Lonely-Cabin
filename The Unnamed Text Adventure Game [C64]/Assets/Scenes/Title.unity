@@ -562,10 +562,10 @@ MonoBehaviour:
   screenJumpLength: 0.2
   screenJumpMinLevel: 0.5
   screenJumpMaxLevel: 0.9
-  flickeringStrength: 0.002
+  flickeringStrength: 0.006
   flickeringCycle: 111
   isSlippage: 1
-  isSlippageNoise: 1
+  isSlippageNoise: 0
   slippageStrength: 0.01
   slippageInterval: 1
   slippageScrollSpeed: 33

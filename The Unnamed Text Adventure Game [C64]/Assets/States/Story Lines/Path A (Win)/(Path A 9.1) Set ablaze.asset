@@ -15,7 +15,7 @@ MonoBehaviour:
   storyText: "You can hear unworldly screams from the whole as it set ablaze. You
     didn\u2019t notice that one of the matches fell onto the floor. The bedroom quickly
     sets ablaze. What  now?\r\n\r\n1 - \u201CI\u2019m sleepy\u201D\r\n\r\n2 - R U
-    N (goes to this option)"
+    N"
   nextStates:
   - {fileID: 11400000, guid: d02b961aea8dbe3418538dda0d552bf1, type: 2}
   - {fileID: 11400000, guid: 3dfe6a24b04ed954aac58794b53d828b, type: 2}
